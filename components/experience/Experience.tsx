@@ -9,7 +9,7 @@ const Experience = () => {
       dates: "May 2021 — May 2023",
       company: "PfizerPro Medical",
       description:
-        "Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala",
+        "Developed high-quality, robust, and adaptable core Web Components that are currently being used by Pfizer web applications in over 35 global markets.  Oversaw discussions and collaboration across different teams regarding component development, as well as component redesigns. Regularly performed code and design reviews, and provided guidance through mentorship of junior team members.",
       link: "https://pfizermedical.pfizerpro.com/",
       technologies: [
         "Stencil.js",
@@ -19,6 +19,7 @@ const Experience = () => {
         "Storybook",
         "Jest",
         "Puppeteer",
+        "Abode Analytics",
       ],
     },
 
@@ -27,7 +28,7 @@ const Experience = () => {
       dates: "Mar 2021 — May 2023",
       company: "Tata Consultancy Services",
       description:
-        "Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala",
+        "Coordinated the frontend development initiative of a PoC which aimed replace and/or enhance the building process of web apps under Pfizer's PfizerPro umbrella. Spearheaded the building process of a PoC application to visualize and manage internal organizational data using D3.js and Python.",
       link: "https://www.tcs.com/",
       technologies: ["D3.js", "Python", "Javascript", "Adobe AEM Franklin"],
     },

@@ -7,16 +7,17 @@ const Projects = () => {
   const projects = [
     {
       title: "BugWatch",
-      dates: "May 2021 — May 2023",
+      dates: "Aug 2023 — Present",
       img: "/bugwatch.png",
       description:
-        "Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala",
+        "A full-stack ticket tracker dashboard built using the T3 Stack. Create teams, add users, and track the progress of their work. Inspired by project trackers like Jira and Asana.",
       link: "https://bugwatch.vercel.app/",
       technologies: [
         "Next.js",
         "Prisma",
         "tRPC",
         "NextAuth",
+        "React Query",
         "MySQL",
         "React",
         "Typescript",
@@ -28,7 +29,7 @@ const Projects = () => {
       dates: "Nov — Dec 2020",
       img: "/kingclothing.png",
       description:
-        "Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala",
+        "Fully-functioning e-commerce web application in my early days of learning React. Uses Redux, Firebase, and Stripe API to handle cart management, authentication, and process user payments.",
       link: "https://ross-patiak.github.io/KingClothing/",
       technologies: ["React", "Redux", "Firebase", "Javascript"],
     },
@@ -65,9 +66,20 @@ const Projects = () => {
                       </span>
                     </div>
                   </h3>
+                  <div
+                    className="text-slate-500 font-medium text-sm mt-1"
+                    aria-hidden="true"
+                  >
+                    {proj.dates}
+                  </div>
 
                   <p className="mt-2 text-sm leading-normal">
-                    {proj.description}
+                    {proj.description}{" "}
+                    {proj.title === "BugWatch" && (
+                      <span className="font-semibold text-sm italic">
+                        Currently in development.
+                      </span>
+                    )}
                   </p>
 
                   <ul className="mt-2 flex flex-wrap">

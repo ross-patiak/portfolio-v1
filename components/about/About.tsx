@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 const About = () => {
   return (
     <section
@@ -6,23 +7,41 @@ const About = () => {
       aria-label="About me"
     >
       <div>
-        <p className="mb-4">
-          Back in 2012, I decided to try my hand at creating custom Tumblr
-          themes and tumbled head first into the rabbit hole of coding and web
-          development. Fast-forward to today, and I’ve had the privilege of
-          building software for an advertising agency, a start-up, a student-led
-          design studio, and a huge corporation.
+        <p className="mb-4 leading-[1.55]">
+          Just a guy who got bit by the coding bug nearly a decade ago and has
+          never looked back. As a passionate coder and a true problem-solver, I
+          develop web applications with elegance, efficiency, and scalability in
+          mind.
         </p>
-        <p className="mb-4">
-          My main focus these days is building products and leading projects for
-          our clients at Upstatement. In my free time I’ve also released an
-          online video course that covers everything you need to know to build a
-          web app with the Spotify API.
+        <p className="mb-4 leading-[1.55]">
+          My main skills center around the{" "}
+          <span className="font-medium text-slate-200">React</span> ecosystem
+          for the frontend, and{" "}
+          <span className="font-medium text-slate-200">Typescript</span>{" "}
+          (Next.js, Node, tRPC, etc.) and{" "}
+          <span className="font-medium text-slate-200">SQL</span> for the
+          backend.
         </p>
-        <p className="mb-4">
-          When I’m not at the computer, I’m usually rock climbing, hanging out
-          with my wife and two cats, or running around Hyrule searching for
-          Korok seeds
+        <p className="mb-4 leading-[1.55]">
+          Currently, I am looking for new opportunities to further my journey as
+          a developer. If you'd like to know more about me, you can check out my
+          full{" "}
+          <a
+            className="font-medium text-slate-200 hover:text-teal-300 hover:decoration-teal-300 focus-visible:decoration-teal-300 focus-visible:text-teal-300 decoration-slate-400/40 underline-offset-2 underline"
+            href="/resume.pdf"
+            target="_blank"
+            rel="noreferrer"
+          >
+            résumé
+          </a>
+          , or you could reach out for any reason to{" "}
+          <a
+            className="font-medium text-slate-200 hover:text-teal-300 hover:decoration-teal-300 focus-visible:decoration-teal-300 focus-visible:text-teal-300 decoration-slate-400/50 underline-offset-2 underline"
+            href="mailto:ross.patiak@gmail.com"
+          >
+            ross.patiak@gmail.com
+          </a>
+          .
         </p>
       </div>
     </section>

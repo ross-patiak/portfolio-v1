@@ -38,10 +38,10 @@ const Navbar = () => {
           <a href="/">Ross Patiak</a>
         </h1>
         <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
-          Full-Stack Software Engineer
+          Full-Stack Web Developer
         </h2>
         <p className="mt-4 max-w-xs leading-normal">
-          I build accessible, inclusive products and digital experiences for the
+          Building innovative, impactful, and scalable digital products for the
           web.
         </p>
 
