@@ -34,7 +34,7 @@ const About = () => {
           >
             résumé
           </a>
-          , or you could reach out for any reason to{" "}
+          , or you can reach out to me for any reason at{" "}
           <a
             className="font-medium text-slate-200 hover:text-teal-300 hover:decoration-teal-300 focus-visible:decoration-teal-300 focus-visible:text-teal-300 decoration-slate-400/50 underline-offset-2 underline"
             href="mailto:ross.patiak@gmail.com"
