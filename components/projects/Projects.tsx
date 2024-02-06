@@ -7,7 +7,7 @@ const Projects = () => {
   const projects = [
     {
       title: "BugWatch",
-      dates: "Aug 2023 — Present",
+      dates: "Currently in development",
       img: "/bugwatch.png",
       description:
         "A full-stack ticket tracker dashboard built using the T3 Stack. Create teams, add users, and track the progress of their work. Inspired by project trackers like Jira and Asana.",
@@ -26,7 +26,7 @@ const Projects = () => {
 
     {
       title: "KING Clothing",
-      dates: "Nov — Dec 2020",
+      dates: "",
       img: "/kingclothing.png",
       description:
         "Fully-functioning e-commerce web application in my early days of learning React. Uses Redux, Firebase, and Stripe API to handle cart management, authentication, and process user payments.",
@@ -66,20 +66,23 @@ const Projects = () => {
                       </span>
                     </div>
                   </h3>
-                  <div
-                    className="text-slate-500 font-medium text-sm mt-1"
-                    aria-hidden="true"
-                  >
-                    {proj.dates}
-                  </div>
+
+                  {proj.dates !== "" ? (
+                    <div
+                      className="text-slate-500 text-sm mt-1 font-semibold italic"
+                      aria-hidden="true"
+                    >
+                      {proj.dates}
+                    </div>
+                  ) : null}
 
                   <p className="mt-2 text-sm leading-normal">
                     {proj.description}{" "}
-                    {proj.title === "BugWatch" && (
+                    {/* {proj.title === "BugWatch" && (
                       <span className="font-semibold text-sm italic">
                         Currently in development.
                       </span>
-                    )}
+                    )} */}
                   </p>
 
                   <ul className="mt-2 flex flex-wrap">
