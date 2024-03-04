@@ -5,16 +5,17 @@ import { LinkIconDiagonal, LinkIconRight } from "@/components/icons/icons";
 const Experience = () => {
   const jobs = [
     {
-      jobTitle: "Frontend Developer",
+      jobTitle: "Full Stack Web Developer",
       dates: "May 2021 — May 2023",
       company: "PfizerPro Medical",
       description:
-        "Developed high-quality, robust, and adaptable core Web Components that are currently being used by Pfizer web applications in over 35 global markets.  Oversaw discussions and collaboration across different teams regarding component development, as well as component redesigns. Regularly performed code and design reviews, and provided guidance through mentorship of junior team members.",
+        "Developed reusable and scalable React Components that are currently being used by Pfizer web applications in over 35 global markets. Designed AWS Lambda functions in Python to integrate headless CMS data into RESTful API architecture. Oversaw discussions and collaboration across different teams regarding component development, as well as component redesigns. Regularly performed code and design reviews, and provided guidance through mentorship of junior team members.",
       link: "https://pfizermedical.pfizerpro.com/",
       technologies: [
-        "Stencil.js",
         "React",
+        "Redux",
         "Typescript",
+        "Python",
         "GrapesJS",
         "Storybook",
         "Jest",
