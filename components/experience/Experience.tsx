@@ -19,7 +19,7 @@ const Experience = () => {
         "GrapesJS",
         "Storybook",
         "Jest",
-        "Puppeteer",
+        "AWS Lambda",
         "Abode Analytics",
       ],
     },
