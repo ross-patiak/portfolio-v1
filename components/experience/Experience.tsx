@@ -13,7 +13,7 @@ const Experience = () => {
       link: "https://pfizermedical.pfizerpro.com/",
       technologies: [
         "React",
-        "StencilJS",
+        "Redux",
         "Typescript",
         "Python",
         "GrapesJS",
