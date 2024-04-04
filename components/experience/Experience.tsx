@@ -5,7 +5,7 @@ import { LinkIconDiagonal, LinkIconRight } from "@/components/icons/icons";
 const Experience = () => {
   const jobs = [
     {
-      jobTitle: "Full Stack Web Developer",
+      jobTitle: "Software Developer",
       dates: "May 2021 — May 2023",
       company: "PfizerPro Medical",
       description:
