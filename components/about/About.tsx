@@ -19,7 +19,7 @@ const About = () => {
           for the frontend, and{" "}
           <span className="font-medium text-slate-200">Typescript</span>{" "}
           (Next.js, Node, tRPC, etc.) and{" "}
-          <span className="font-medium text-slate-200">Python</span> and
+          <span className="font-medium text-slate-200">Python</span> and{" "}
           <span className="font-medium text-slate-200">SQL</span> for the
           backend.
         </p>

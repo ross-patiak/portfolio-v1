@@ -9,7 +9,7 @@ const Experience = () => {
       dates: "May 2021 — May 2023",
       company: "PfizerPro Medical",
       description:
-        "Developed reusable and scalable React Components that are currently being used by Pfizer web applications in over 35 global markets. Designed AWS Lambda functions in Python to integrate headless CMS data into RESTful API architecture. Oversaw discussions and collaboration across different teams regarding component development, as well as component redesigns. Regularly performed code and design reviews, and provided guidance through mentorship of junior team members.",
+        "Launched a medical publications and resources database web application using React, Typescript, Redux, now serving over 100K healthcare professionals across 35 global markets. Main responsibilities include overseeing the full-stack direction of new and redesigned UI components, and developing AWS Lambda functions to integrate Drupal data into our API. Regularly performed code and design reviews, and provided guidance through mentorship of junior team members.",
       link: "https://pfizermedical.pfizerpro.com/",
       technologies: [
         "React",
@@ -21,6 +21,7 @@ const Experience = () => {
         "Jest",
         "AWS Lambda",
         "Abode Analytics",
+        "Drupal",
       ],
     },
 
