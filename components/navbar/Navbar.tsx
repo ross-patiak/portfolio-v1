@@ -38,7 +38,7 @@ const Navbar = () => {
           <a href="/">Ross Patiak</a>
         </h1>
         <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
-          Full-Stack Web Developer
+          Software Engineer
         </h2>
         <p className="mt-4 max-w-xs leading-normal">
           Building innovative, impactful, and scalable digital products for the
