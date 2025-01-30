@@ -6,21 +6,37 @@ import Image from "next/image";
 const Projects = () => {
   const projects = [
     {
+      title: "Optimix",
+      dates: "Currently in Development",
+      img: "",
+      description:
+        "Shuffle between multiple Spotify playlists weighted randomly by your preferences. Built using the Spotify API, Next.js, and Drizzle.",
+      link: "https://github.com/ross-patiak/Optimix",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "Drizzle",
+        "Tailwind CSS",
+        "Tanstack Query",
+        "PostgresSQL",
+      ],
+    },
+    {
       title: "BugWatch",
-      dates: "Currently in development",
+      dates: "Paused Development",
       img: "/bugwatch.png",
       description:
         "A full-stack ticket tracker dashboard built using the T3 Stack. Create teams, add users, and track the progress of their work. Inspired by project trackers like Jira and Asana.",
       link: "https://bugwatch.vercel.app/",
       technologies: [
         "Next.js",
+        "Typescript",
+        "Tailwind CSS",
         "Prisma",
         "tRPC",
         "NextAuth",
-        "React Query",
-        "MySQL",
-        "React",
-        "Typescript",
+        "Supabase",
+        "PostgreSQL",
       ],
     },
 
@@ -49,13 +65,15 @@ const Projects = () => {
             <a target="_blank" rel="noopener noreferrer" href={proj.link}>
               <CardContent className="flex pt-6 gap-5">
                 <header className="z-10 mb-2 mt-1 text-xs leading-loose font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2 w-1/4">
-                  <Image
-                    src={proj.img as string}
-                    width={200}
-                    height={112.5}
-                    className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
-                    alt="Project Image"
-                  />
+                  {proj.img ? (
+                    <Image
+                      src={proj.img as string}
+                      width={200}
+                      height={112.5}
+                      className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
+                      alt="Project Image"
+                    />
+                  ) : null}
                 </header>
                 <div className="flex flex-col w-3/4">
                   <h3 className="font-medium leading-snug text-slate-200">

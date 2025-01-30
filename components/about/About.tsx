@@ -16,9 +16,9 @@ const About = () => {
         <p className="mb-4 leading-[1.55]">
           My main skills center around the{" "}
           <span className="font-medium text-slate-200">React</span> ecosystem
-          for the frontend, and{" "}
-          <span className="font-medium text-slate-200">Typescript</span>{" "}
-          (Next.js, Node, tRPC, etc.) and{" "}
+          (Next.js, Redux, Tanstack Query, etc.) and{" "}
+          <span className="font-medium text-slate-200">Typescript</span> for the
+          frontend, and{" "}
           <span className="font-medium text-slate-200">Python</span> and{" "}
           <span className="font-medium text-slate-200">SQL</span> for the
           backend.
