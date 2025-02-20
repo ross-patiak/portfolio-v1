@@ -9,19 +9,19 @@ const Experience = () => {
       dates: "May 2021 — May 2023",
       company: "PfizerPro Medical",
       description:
-        "Launched a medical publications and resources database web application using React, Typescript, Redux, now serving over 100K healthcare professionals across 35 global markets. Main responsibilities include overseeing the full-stack direction of new and redesigned UI components, and developing AWS Lambda functions to integrate Drupal data into our API. Regularly performed code and design reviews, and provided guidance through mentorship of junior team members.",
+        "Launched a medical publications and resources database web application using React, Typescript, Redux, now serving over 100K healthcare professionals across 35 global markets. Main responsibilities include overseeing the full-stack direction of new and redesigned UI components, and developing AWS Lambda functions to query and mutate DynamoDB data using Python and NoSQL. Regularly performed code and design reviews, and provided guidance through mentorship of junior team members.",
       link: "https://pfizermedical.pfizerpro.com/",
       technologies: [
         "React",
         "Redux",
         "Typescript",
         "Python",
-        "GrapesJS",
+        "NoSQL",
         "Storybook",
         "Jest",
         "AWS Lambda",
+        "AWS DynamoDB",
         "Abode Analytics",
-        "Drupal",
       ],
     },
 
