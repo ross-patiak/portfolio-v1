@@ -19,7 +19,7 @@ const About = () => {
           (Next.js, Redux, Tanstack Query, etc.) and{" "}
           <span className="font-medium text-slate-200">Typescript</span> for the
           frontend, and{" "}
-          <span className="font-medium text-slate-200">Python</span> and{" "}
+          <span className="font-medium text-slate-200">Python, NoSQL,</span> and{" "}
           <span className="font-medium text-slate-200">SQL</span> for the
           backend.
         </p>
